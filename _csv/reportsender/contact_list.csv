@@ -1,0 +1,13 @@
+﻿EMAIL,GROUP,TYPE
+john.doe@companyemail.com,A,TO
+jane.smith@companyemail.com,A,TO
+michael.johnson@companyemail.com,A,CC
+emily.davis@companyemail.com,A,CC
+david.brown@companyemail.com,A,CC
+sarah.wilson@companyemail.com,B,TO
+james.moore@companyemail.com,B,TO
+victor.song@companyemail.com,B,CC
+linda.taylor@companyemail.com,C,TO
+robert.anderson@companyemail.com,C,TO
+mary.thomas@companyemail.com,C,TO
+victor.song@companyemail.com,C,CC
