@@ -6,11 +6,11 @@ import time
 import webbrowser
 
 
-class projlauncher:
+class ProjLauncher:
     def __init__(self):
         load_dotenv()
         self.mdir = os.getenv('MDIR')
-        self.csv_dir = os.path.join(self.mdir, '_csv', self.__class__.__name__)
+        self.csv_dir = os.path.join(self.mdir, '_csv', self.__class__.__name__.lower())
         self.csvfiles = os.listdir(os.path.join(self.csv_dir))
         self.favlist_csv = self.load_favlist()
         self.select_menu = {
@@ -47,6 +47,7 @@ class projlauncher:
     def menu_printer(self, menu_toprint):
         for i, v in menu_toprint.items():
             print('{}: {}'.format(i, v[0]))
+        print('--------------------')
         return
      
     def launch_proj(self,menu_url, projcode):
@@ -55,12 +56,12 @@ class projlauncher:
         return
 
     def start_launcher(self):
-        print('---- MAIN MENU -----\n')
+        print('\n---- MAIN MENU -----\n')
         time.sleep(0.5)
-        print('project shortcut list:')
+        print('project shortcut list:\n')
         self.menu_printer(self.favlist_csv)
-        projindex = input('Please select proj index option:\n' \
-                             '"r" to launch reports module\n' \
+        projindex = input('Please select proj index option or:\n' \
+                             '"r" to launch reports module or\n' \
                              '"q" to exit\n'
                              )
         try:
@@ -70,8 +71,8 @@ class projlauncher:
             time.sleep(0.3)
             while True:
                 self.menu_printer(self.select_menu)
-                menu_index = input('Please select menu index option:\n' \
-                                    '"r" to launch reports module\n' \
+                menu_index = input('Please select menu index option or:\n' \
+                                    '"r" to launch reports module or\n' \
                                     '"q" to exit\n'
                                     )
                 
@@ -89,7 +90,7 @@ class projlauncher:
 
 
 def main():
-    pj = projlauncher()
+    pj = ProjLauncher()
     pj.start_launcher()
     
 if __name__ == '__main__':
