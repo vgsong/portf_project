@@ -1,0 +1,51 @@
+﻿Employee ID,First Name,Last Name,Email,Gender,Department,Job Title,Salary,Hire Date
+1,John,Doe,john.doe@example.com,Male,IT,Software Engineer,85000,1/15/2020
+2,Jane,Smith,jane.smith@example.com,Female,HR,HR Manager,90000,3/22/2019
+3,Alice,Johnson,alice.j@example.com,Female,Marketing,Marketing Director,95000,7/11/2018
+4,Bob,Brown,bob.brown@example.com,Male,Sales,Sales Executive,70000,5/30/2021
+5,Charlie,Davis,charlie.d@example.com,Male,Finance,Financial Analyst,80000,9/17/2020
+6,Emily,Wilson,emily.w@example.com,Female,IT,DevOps Engineer,87000,11/5/2019
+7,Frank,Miller,frank.m@example.com,Male,Operations,Operations Manager,92000,2/14/2018
+8,Grace,Lee,grace.l@example.com,Female,IT,Data Scientist,93000,8/23/2021
+9,Henry,Walker,henry.w@example.com,Male,Marketing,Content Strategist,75000,4/12/2020
+10,Irene,Hall,irene.h@example.com,Female,Sales,Account Manager,78000,6/19/2019
+11,Jack,Allen,jack.a@example.com,Male,HR,Recruiter,68000,10/1/2021
+12,Karen,Young,karen.y@example.com,Female,Finance,Accountant,82000,12/27/2018
+13,Larry,King,larry.k@example.com,Male,IT,Network Engineer,86000,3/15/2020
+14,Mary,Wright,mary.w@example.com,Female,Operations,Logistics Manager,89000,8/8/2019
+15,Nick,Scott,nick.s@example.com,Male,Marketing,SEO Specialist,74000,1/22/2021
+16,Olivia,Green,olivia.g@example.com,Female,Sales,Sales Coordinator,76000,5/18/2020
+17,Paul,Adams,paul.a@example.com,Male,HR,HR Assistant,67000,9/25/2019
+18,Quinn,Baker,quinn.b@example.com,Female,IT,UX Designer,88000,11/13/2018
+19,Rachel,Nelson,rachel.n@example.com,Female,Finance,Financial Planner,81000,7/7/2021
+20,Steve,Carter,steve.c@example.com,Male,Operations,Operations Analyst,83000,2/20/2020
+21,Tina,Mitchell,tina.m@example.com,Female,Marketing,Brand Manager,94000,4/15/2019
+22,Uma,Perez,uma.p@example.com,Female,Sales,Sales Representative,77000,6/21/2018
+23,Victor,Roberts,victor.r@example.com,Male,IT,Systems Administrator,85000,9/10/2021
+24,Wendy,Turner,wendy.t@example.com,Female,HR,HR Specialist,69000,1/29/2020
+25,Xavier,Phillips,xavier.p@example.com,Male,Finance,Auditor,82000,5/17/2019
+26,Yvonne,Campbell,yvonne.c@example.com,Female,Operations,Supply Chain Manager,91000,8/30/2018
+27,Zach,Parker,zach.p@example.com,Male,Marketing,Social Media Manager,75000,3/12/2021
+28,Amy,Evans,amy.e@example.com,Female,Sales,Sales Analyst,78000,7/24/2020
+29,Brian,Edwards,brian.e@example.com,Male,IT,IT Support Specialist,86000,10/9/2019
+30,Chloe,Collins,chloe.c@example.com,Female,HR,Training Coordinator,70000,12/5/2018
+31,David,Stewart,david.s@example.com,Male,Finance,Budget Analyst,83000,6/14/2021
+32,Ella,Sanchez,ella.s@example.com,Female,Operations,Project Manager,90000,3/27/2020
+33,Frank,Morris,frank.m@example.com,Male,Marketing,Marketing Analyst,74000,8/19/2019
+34,Gina,Rogers,gina.r@example.com,Female,Sales,Sales Consultant,76000,11/2/2018
+35,Harry,Reed,harry.r@example.com,Male,IT,Cloud Engineer,87000,1/5/2021
+36,Ivy,Cook,ivy.c@example.com,Female,HR,Compensation Analyst,69000,5/11/2020
+37,Jack,Morgan,jack.m@example.com,Male,Finance,Investment Analyst,82000,9/28/2019
+38,Kelly,Bell,kelly.b@example.com,Female,Operations,Quality Assurance,91000,2/23/2018
+39,Leo,Murphy,leo.m@example.com,Male,Marketing,Product Manager,94000,7/19/2021
+40,Mia,Bailey,mia.b@example.com,Female,Sales,Sales Director,98000,4/6/2020
+41,Noah,Rivera,noah.r@example.com,Male,IT,Security Analyst,86000,6/30/2019
+42,Olivia,Cooper,olivia.c@example.com,Female,HR,Benefits Coordinator,70000,9/12/2018
+43,Peter,Richardson,peter.r@example.com,Male,Finance,Tax Specialist,83000,3/25/2021
+44,Quinn,Cox,quinn.c@example.com,Female,Operations,Procurement Manager,90000,7/3/2020
+45,Ryan,Howard,ryan.h@example.com,Male,Marketing,Advertising Manager,75000,11/16/2019
+46,Sarah,Ward,sarah.w@example.com,Female,Sales,Sales Trainer,78000,1/29/2018
+47,Tom,Brooks,tom.b@example.com,Male,IT,Database Administrator,87000,5/8/2021
+48,Uma,Foster,uma.f@example.com,Female,HR,Employee Relations,69000,2/18/2020
+49,Victor,Gray,victor.g@example.com,Male,Finance,Risk Manager,82000,4/10/2019
+50,Wendy,Hughes,wendy.h@example.com,Female,Operations,Operations Coordinator,91000,2018

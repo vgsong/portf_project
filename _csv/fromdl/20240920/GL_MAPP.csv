@@ -1,0 +1,13 @@
+﻿Account Number,Account Name,GL Code,Description,Category
+1000,Cash,101,Cash in hand,Assets
+1100,Accounts Receivable,102,Amounts owed by customers,Assets
+1200,Inventory,103,Goods available for sale,Assets
+2000,Accounts Payable,201,Amounts owed to suppliers,Liabilities
+2100,Accrued Expenses,202,Expenses incurred but not paid,Liabilities
+3000,Common Stock,301,Equity capital,Equity
+3100,Retained Earnings,302,Accumulated profits,Equity
+4000,Sales Revenue,401,Income from sales,Revenue
+4100,Service Revenue,402,Income from services,Revenue
+5000,Cost of Goods Sold,501,Direct costs of goods sold,Expenses
+5100,Salaries Expense,502,Employee salaries,Expenses
+5200,Rent Expense,503,Office rent,Expenses
