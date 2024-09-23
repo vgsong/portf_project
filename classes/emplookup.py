@@ -19,7 +19,6 @@ class EmpLookup:
             data = csv.reader(cf)
             return [row for row in data]
 
-
     def start_lookup(self):
         headers, *details = self.emplist
         while True:
@@ -31,27 +30,23 @@ class EmpLookup:
                 break
         
         for emp in search_result:
-            empid = str(emp[0])
-            first = str(emp[1])
-            last = str(emp[2])
-            email = str(emp[3])
-            gender = str(emp[4])
-            department = str(emp[5])
-            title = str(emp[6])
-            salary = str(emp[7])
-            hiredate = str(emp[8])
+            empinfo = {
+                    'empid' : str(emp[0]),
+                    'first' : str(emp[1]),
+                    'last' : str(emp[2]),
+                    'email' : str(emp[3]),
+                    'gender' : str(emp[4]),
+                    'department' : str(emp[5]),
+                    'title' : str(emp[6]),
+                    'salary' : str(emp[7]),
+                    'hiredate' : str(emp[8]),
+                    }
 
             print('--------------------------')
-            print('{}: {}'.format(headers[0],empid))
-            print('{}: {}'.format(headers[1],first))
-            print('{}: {}'.format(headers[2],last))
-            print('{}: {}'.format(headers[3],email))
-            print('{}: {}'.format(headers[4],gender))
-            print('{}: {}'.format(headers[5],department))
-            print('{}: {}'.format(headers[6],title))
-            print('{}: {}'.format(headers[7],salary))
-            print('{}: {}'.format(headers[8],hiredate))
+            for k, v in empinfo.items():
+                print('{}: {}'.format(k, v))        
             print('--------------------------\n')
+
 
 def main():
     a = EmpLookup()
@@ -59,3 +54,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

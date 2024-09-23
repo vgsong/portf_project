@@ -28,7 +28,7 @@ class ProjLauncher:
         with open(os.path.join(self.csv_dir, filename), 
                   'r', encoding='utf-8-sig',) as cf:
             data = csv.reader(cf)
-            result = {i:v for  i, v in enumerate(data)}
+            result = {i: v for  i, v in enumerate(data)}
             return result
 
     def check_rq(self, user_input):
@@ -61,9 +61,9 @@ class ProjLauncher:
         print('project shortcut list:\n')
         self.menu_printer(self.favlist_csv)
         projindex = input('Please select proj index option or:\n' \
-                             '"r" to launch reports module or\n' \
-                             '"q" to exit\n'
-                             )
+                          '"r" to launch reports module or\n' \
+                          '"q" to exit\n'
+                          )
         try:
             self.check_rq(projindex)
             projcode = self.favlist_csv[int(projindex)][0]
@@ -72,9 +72,9 @@ class ProjLauncher:
             while True:
                 self.menu_printer(self.select_menu)
                 menu_index = input('Please select menu index option or:\n' \
-                                    '"r" to launch reports module or\n' \
-                                    '"q" to exit\n'
-                                    )
+                                   '"r" to launch reports module or\n' \
+                                   '"q" to exit\n'
+                                   )
                 
                 try:
                     self.check_rq(menu_index)
