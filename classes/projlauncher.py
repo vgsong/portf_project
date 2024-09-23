@@ -10,7 +10,7 @@ class ProjLauncher:
     def __init__(self):
         load_dotenv()
         self.mdir = os.getenv('MDIR')
-        self.csv_dir = os.path.join(self.mdir, '_csv', self.__class__.__name__.lower())
+        self.csv_dir = os.path.join(self.mdir, 'csv', self.__class__.__name__.lower())
         self.csvfiles = os.listdir(os.path.join(self.csv_dir))
         self.favlist_csv = self.load_favlist()
         self.select_menu = {

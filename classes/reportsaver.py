@@ -10,7 +10,7 @@ class FromDl:
         self.timestamp = datetime.today().strftime('%Y%m%d')
         self.mdir = os.getenv('MDIR')
         self.dl_dir = os.getenv('DL_DIR')
-        self.csv_dir = os.path.join(self.mdir, '_csv', self.__class__.__name__.lower())
+        self.csv_dir = os.path.join(self.mdir, 'csv', self.__class__.__name__.lower())
         self.dailydir = os.path.join(self.csv_dir, self.timestamp)
 
         self.file_in = ['product_list.csv', 

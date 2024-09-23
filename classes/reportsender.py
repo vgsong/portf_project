@@ -12,7 +12,7 @@ class ReportSender:
         self.today_timestamp = datetime.today()
         self.weekday_today = self.today_timestamp.weekday()
         self.mdir = os.getenv('MDIR')
-        self.csv_dir = os.path.join(self.mdir,'_csv', self.__class__.__name__.lower())
+        self.csv_dir = os.path.join(self.mdir,'csv', self.__class__.__name__.lower())
         self.csv_files = [x for x in os.listdir(self.csv_dir) if os.path.isfile(os.path.join(self.csv_dir,x))]
         self.contact_list = self.get_contact_list()
 
