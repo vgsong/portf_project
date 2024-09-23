@@ -14,12 +14,12 @@ class MainLauncher:
         self.mdir = os.getenv('MDIR')
 
         self.menu_mapp = {
-            1: ['EMPLOOKUP', self.],
-            2: ['PDFMERGER', self.],
-            3: ['PROJLAUNCH', self.],
-            4: ['REPORTSAVER', self.],
-            5: ['REPORTSENDER', self.],
-            0: ['QUIT', self.],
+            # 1: ['EMPLOOKUP', self.],
+            # 2: ['PDFMERGER', self.],
+            # 3: ['HUBLAUNCH', self.],
+            # 4: ['REPORTSAVER', self.],
+            # 5: ['REPORTSENDER', self.],
+            0: ['QUIT', exit],
         }
 
     
