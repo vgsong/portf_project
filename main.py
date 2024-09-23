@@ -14,12 +14,12 @@ class MainLauncher:
         self.mdir = os.getenv('MDIR')
 
         self.menu_mapp = {
-            1: ['EMPLOOKUP', ],
-            2: ['PDFMERGER', ],
-            3: ['PROJLAUNCH', ],
-            4: ['REPORTSAVER', ],
-            5: ['REPORTSENDER', ],
-            0: ['QUIT', ],
+            1: ['EMPLOOKUP', self.],
+            2: ['PDFMERGER', self.],
+            3: ['PROJLAUNCH', self.],
+            4: ['REPORTSAVER', self.],
+            5: ['REPORTSENDER', self.],
+            0: ['QUIT', self.],
         }
 
     
@@ -35,9 +35,10 @@ class MainLauncher:
                 print(E)
 
         
-
 def main():
-    print('hello world')
+    mainlauncher = MainLauncher()
+    mainlauncher.start_menu()
 
 if __name__ == '__main__':
     main()
+
